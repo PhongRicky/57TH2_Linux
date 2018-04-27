@@ -3,9 +3,8 @@ clear
 echo "Nhap ho: "
 read h
 echo "Nhap ten: "
-read t 
-str1="Vu Hung Phong" 
-if [[ $h && $t ] = $str1 ]; 
+read t  
+if [ $h = "Vu"] && [ $t = "Phong" ]; 
 then 
 	echo "Ten trung khop" 
 else 
